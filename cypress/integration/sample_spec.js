@@ -37,4 +37,9 @@ describe('My First Test', function() {
       .should('have.value', 'fake@email.com')
   })
 
+  // yields <button> *children 사용법 -> 태그고 뭐고 자식 다 가져옴
+  // cy.contains('Search').children('i').should('have.class', 'fa-search')
+
+  // yields label *find 사용법 -> 특정 태그로
+  // cy.contains('Age').find('input').type('29')
 })
