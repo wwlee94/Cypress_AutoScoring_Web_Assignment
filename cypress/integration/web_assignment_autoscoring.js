@@ -1,5 +1,5 @@
 
-var base_url = "http://ec2-13-124-183-165.ap-northeast-2.compute.amazonaws.com:32778/"
+var base_url = "http://ec2-13-124-183-165.ap-northeast-2.compute.amazonaws.com:32785/"
 
 //url 접근 안되면 나머지 테스트 진행안하도록 처리해야함
 //강의 목록 조회 기능
